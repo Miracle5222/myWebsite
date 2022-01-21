@@ -9,15 +9,12 @@ export const Container = styled.div`
   background-color: ${({ bg }) => bg};
 `;
 
-export const Light = styled.div`
+export const SubContainer = styled.div`
   display: flex;
-  align-items: flex-end;
-
-  & img {
-    height: 40px;
-    width: 40px;
-  }
-  &:hover {
-    cursor: pointer;
-  }
+  justify-content: center;
+  align-items: center;
+  min-width: 1280px;
+  box-shadow: 0 0 30px rgba(40, 40, 40, 0.1);
+  min-height: 100vh;
+  background-color: ${({ bg }) => bg};
 `;

@@ -12,11 +12,11 @@ function Layout({ children }) {
   return (
     <>
       <Header />
-      <GlobalStyles />
+      <GlobalStyles bg={colorMode ? "#001015" : "#FFFFFF"} />
       <Container
         justify="center"
         align="center"
-        bg="#001015"
+        bg={colorMode ? "#E5E5E5" : "#011116"}
       >
         {children}
       </Container>

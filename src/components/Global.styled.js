@@ -12,21 +12,16 @@ export const GlobalStyles = createGlobalStyle`
 
 body{
     font-family: 'Ubuntu', sans-serif;
+    width: 100%;
 }
 a{
     text-decoration: none;
-    color: white;
-    padding: 12px;
-    font-weight: 500;
+  
 }
 h1{
-   color: white;
-   font-size: 6rem;
+   color: ${({ bg }) => bg};
 }
 p{
-    padding-top: 15px;
-    color: #FFFFFF;
-    font-size: 1.3rem;
-    font-weight: 300;
+   color: ${({ bg }) => bg};
 }
 `;
